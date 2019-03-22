@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context path="jdbc/Entrance_System" >
+    <Resource auth="Container"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              maxActive="20"
+              maxIdle="30"
+              maxWait="10000"
+              name="jdbc/Entrance_System"
+              username="EXAM"
+              password="12345"
+              type="javax.sql.DataSource"
+              url="jdbc:oracle:thin:@localhost:1521:XE"
+            />
+</Context >

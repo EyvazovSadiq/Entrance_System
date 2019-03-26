@@ -70,7 +70,7 @@ public class ControllerServlet extends javax.servlet.http.HttpServlet {
                               request.setAttribute("invalid","Dear student, you are not allowed to enter this room right now !");
                               else
                               request.setAttribute("invalid","Username or passoword is invalid !");
-                              //address = "index.jsp";
+                              address = "index.jsp";
                            }
                      }
         }
